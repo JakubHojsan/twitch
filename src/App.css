@@ -1,15 +1,23 @@
 .left {
-  width: 10%;
-  padding: 2px;
+  position: absolute;
+  left: 0px;
+  width: 300px;
+  border: 3px solid #73AD21;
+  padding: 10px;
 }
 
 .middle {
   margin: auto;
   width: 30%;
-  padding: 2px;
+  border: 3px solid green;
+  padding: 10px;
 
 }
 
 .right {
-
+  position: absolute;
+  right: 0px;
+  width: 186px;
+  border: 3px solid #73AD21;
+  padding: 10px;
 }
