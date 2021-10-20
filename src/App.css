@@ -18,3 +18,59 @@
   width: 330px;
   padding: 0px;
 }
+
+.sidebar {
+  left: 0px;
+  width: 220px;
+  height: 93vh;
+  padding: 10px;
+  margin-top: 60px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: '#808080';
+
+  -webkit-box-shadow: 1px -1px 18px -1px rgba(0,0,0,0.51); 
+  box-shadow: 1px -1px 18px -1px rgba(0,0,0,0.51);
+
+
+
+}
+
+.channelButton {
+  position: absolute;
+  left: 0px;
+  width: 235px;
+  padding: 0px;
+  margin: 0px;
+  height: 50px;
+}
+
+
+.pictureContainer {
+  position: absolute;
+  left: 5px;
+  top: 18%;
+  
+  
+}
+
+.channelName {
+  position: relative;
+  left: 25%;
+  top: 3px;
+}
+
+.topic {
+  position: relative;
+  left: 25%;
+  top: 3px;
+
+}
+
+.viewers {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  padding: 4px;
+}

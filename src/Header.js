@@ -3,7 +3,6 @@ import React from "react";
 import './App.css';
 import logo from'./logo.png';
 import logosvg from'./logosvg.svg';
-
 import SearchBar from "material-ui-search-bar";
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
@@ -29,7 +28,7 @@ export default function Header() {
           <div className='left'>
             <Stack direction='row' spacing={2}>
               <Button disabled> 
-                <img src={logosvg} alt='test' width='32px' height='32px' />
+                <img src={logosvg} alt='logo' width='32px' height='32px' />
               </Button>
               <Button style={{color: "#000000"}}
                 variant="text">
